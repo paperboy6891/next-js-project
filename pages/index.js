@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-indent */
 import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
-
+import './style.css';
 const Page = () => (
-    <div className="bg-primary-black overflow-hidden">
+    <div className="bg-primary-black overflow-hidden main">
         <Navbar />
         <Hero />
         <div className="relative">

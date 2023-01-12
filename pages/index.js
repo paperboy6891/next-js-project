@@ -4,7 +4,7 @@ import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
 
 const Page = () => (
-    <div className="overflow-hidden main">
+    <div className="main">
         <Navbar />
         <Hero />
         <div className="relative">
